@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  font-family: arial;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.doc {
+  background-color: #e5e5fd;
+  height: 900px;
+  width: 600px;
+  border: 16px solid #1d1e4c;
+}
+.header {
+  display: flex;
+}
+.photo {
+  height: 250px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 70px;
+  border-radius: 45%;
+  background-image: url("apj.jpg");
+  background-size: cover;
+  box-shadow: 5px 10px 15px;
+}
+
+.name {
+  margin-top: 230px;
+}
+
+.name1 {
+  font-weight: 700;
+  margin-left: 210px;
+}
+
+.prof {
+  margin-top: 70px;
+  margin-left: -10px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.para {
+  line-height: 15px;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  margin-right: 35px;
+  text-align: justify;
+}
+
+.bio {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.bio1 {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.bio2 {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-left: -20px;
+  line-height: 20px;
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-right: 10px;
+  font-size: 0.6rem;
+}
+.foot1 {
+  font-weight: 700;
+}
+.foot2 {
+  margin-left: 5px;
+}

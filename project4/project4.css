@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 2000px;
+  width: 1440px;
+}
+.container1 {
+  height: 770px;
+  width: 1440px;
+  background-image: url("developer.png");
+  background-size: cover;
+}
+.container1 h1 {
+  position: relative;
+  top: 50px;
+  left: 22%;
+  color: white;
+  font-size: 4.9em;
+  font-weight: lighter;
+  line-height: 85px;
+}
+.container1 small {
+  font-size: 35px;
+}
+
+.container2 {
+  height: 280px;
+  width: 1440px;
+  background-color: #161619;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 p {
+  font-size: 5em;
+}
+
+.container2 B {
+  font-size: 2em;
+  font-weight: 700px;
+}
+
+.container3 {
+  height: 650px;
+  width: 1440px;
+  padding: 0px 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.con1 {
+  height: 520px;
+  width: 320px;
+  border-radius: 10px;
+  border-bottom: 3px solid grey;
+  border-right: 0.5px solid grey;
+  border-left: 0.5px solid grey;
+}
+.under1 {
+  height: 192px;
+  width: 320px;
+  background-image: url("web.png");
+  background-size: cover;
+}
+.under2 {
+  height: 192px;
+  width: 320px;
+  background-image: url("uiux.png");
+  background-size: cover;
+}
+.under3 {
+  height: 192px;
+  width: 320px;
+  background-image: url("mobile.png");
+  background-size: cover;
+}
+.text {
+  padding: 20px 20px;
+}
+
+.text p {
+  margin-top: 20px;
+}
+.text h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.container4 {
+  height: 380px;
+  width: 1440px;
+  display: flex;
+  position: relative;
+  bottom: 50px;
+}
+.under4 {
+  height: 380px;
+  width: 720px;
+  background-color: #515603;
+  color: white;
+}
+.under4 h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  margin: 40px 20px 20px 90px;
+}
+
+.under4 p {
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 10px 90px 20px 90px;
+  line-height: 25px;
+}
+
+.under5 {
+  height: 380px;
+  width: 720px;
+  background-color: #722300;
+  color: white;
+}
+.under5 h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  margin: 40px 20px 20px 70px;
+}
+
+.under5 p {
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 10px 90px 20px 70px;
+  line-height: 25px;
+}
+.footer {
+  height: 140px;
+  width: 1440px;
+  background-color: #000000;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  font-size: 1.5em;
+}
